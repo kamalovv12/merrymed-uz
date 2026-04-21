@@ -1,0 +1,52 @@
+/* Merrymed additional styles - admin, lang switcher, animations */
+.lang-switcher { display: flex; gap: 4px; margin-left: 16px; }
+.lang-switcher button { background: transparent; border: 1px solid rgba(255,255,255,.25); color: #e8ebf0; padding: 6px 10px; border-radius: 8px; font-size: 12px; font-weight: 600; cursor: pointer; transition: all .2s; }
+.lang-switcher button:hover { background: rgba(255,255,255,.1); }
+.lang-switcher button.active { background: #ffb400; color: #0b1d3a; border-color: #ffb400; }
+
+.admin-link { background: linear-gradient(135deg, #ffb400, #ff8c00); color: #0b1d3a !important; padding: 6px 14px !important; border-radius: 20px; font-weight: 700; }
+
+.admin-login { min-height: 70vh; display: flex; align-items: center; justify-content: center; padding: 40px 20px; }
+.admin-login form { background: #fff; padding: 40px; border-radius: 16px; box-shadow: 0 20px 60px rgba(0,0,0,.15); width: 100%; max-width: 400px; display: flex; flex-direction: column; gap: 14px; }
+.admin-login h2 { margin: 0 0 8px; color: #0b1d3a; }
+.admin-login input { padding: 12px; border: 1px solid #dde3ec; border-radius: 10px; font-size: 14px; }
+
+.admin-panel { padding: 40px 0; min-height: 70vh; background: #f5f7fb; }
+.admin-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+.admin-header h1 { color: #0b1d3a; margin: 0; }
+.admin-tabs { display: flex; gap: 8px; margin-bottom: 24px; flex-wrap: wrap; }
+.admin-tabs button { padding: 10px 20px; border: 1px solid #dde3ec; background: #fff; border-radius: 10px; cursor: pointer; font-weight: 600; transition: all .2s; }
+.admin-tabs button:hover { transform: translateY(-2px); }
+.admin-tabs button.active { background: #0b1d3a; color: #fff; border-color: #0b1d3a; }
+
+.admin-crud-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.admin-crud-header h3 { color: #0b1d3a; margin: 0; }
+.admin-list { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,.04); }
+.admin-item { padding: 14px 18px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #eef1f6; transition: background .2s; }
+.admin-item:hover { background: #f9fafc; }
+.admin-item:last-child { border-bottom: none; }
+.admin-actions { display: flex; gap: 8px; }
+.admin-actions button { padding: 6px 14px; border: 1px solid #dde3ec; background: #fff; border-radius: 8px; cursor: pointer; font-size: 13px; transition: all .2s; }
+.admin-actions button:hover { background: #0b1d3a; color: #fff; }
+.admin-actions button.danger:hover { background: #d43434; border-color: #d43434; }
+
+.modal-backdrop { position: fixed; inset: 0; background: rgba(11,29,58,.6); backdrop-filter: blur(4px); display: flex; align-items: center; justify-content: center; z-index: 999; padding: 20px; }
+.modal { background: #fff; border-radius: 16px; padding: 28px; width: 100%; max-width: 560px; max-height: 85vh; overflow-y: auto; box-shadow: 0 30px 80px rgba(0,0,0,.3); }
+.modal h3 { color: #0b1d3a; margin: 0 0 20px; }
+.modal .field { margin-bottom: 16px; }
+.modal .field label { display: block; font-weight: 600; color: #0b1d3a; margin-bottom: 6px; text-transform: capitalize; font-size: 13px; }
+.modal .field input { width: 100%; padding: 10px 12px; border: 1px solid #dde3ec; border-radius: 8px; margin-bottom: 6px; font-size: 14px; box-sizing: border-box; }
+.modal .field input:focus { outline: none; border-color: #0b1d3a; }
+.modal-actions { display: flex; gap: 10px; justify-content: flex-end; margin-top: 20px; }
+
+.site-header nav a { transition: color .2s, transform .2s; }
+.site-header nav a:hover { transform: translateY(-1px); }
+.btn { transition: transform .2s, box-shadow .2s; }
+.btn:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,.15); }
+.info-card { transition: box-shadow .3s; }
+.info-card:hover { box-shadow: 0 16px 40px rgba(11,29,58,.12); }
+
+.img .brand img{
+    width: 180px;
+    height: 50px;
+}
