@@ -7,7 +7,7 @@ export const TRANSLATIONS = {
     pages: { products: { title: "Mahsulotlar", subtitle: "Dori shakllari va toifalar." }, news: { title: "Yangiliklar", subtitle: "Kompaniya yangiliklari va e'lonlar." }, gallery: { title: "Galereya", subtitle: "Ishlab chiqarish lavhalar." }, jobs: { title: "Ish o'rinlari", subtitle: "Ochiq vakansiyalar." }, contact: { title: "Bog'lanish", subtitle: "Murojaat va hamkorlik uchun." } },
     jobs: [ {title: "QA mutaxassisi", location: "Namangan", type: "Full-time"}, {title: "Frontend developer", location: "Toshkent / Remote", type: "Contract"}, {title: "Logistika koordinatori", location: "Namangan", type: "Full-time"} ],
     contact: { eyebrow: "Bog'lanish", title: "Biz bilan aloqaga chiqing", name: "Ismingiz", email: "Email", message: "Xabar matni", send: "Yuborish", sent: "Xabaringiz yuborildi!", error: "Xatolik yuz berdi.", index: "Indeks", email_label: "Email", all: "Barchasi", apply: "Ariza topshirish" },
-    footer: { about: "MERRYMED FARM - Zamonaviy farmatsevtika kompaniyasi.", contact: "Aloqa", rights: "© 2026 MERRYMED FARM. Barcha huquqlar himoyalangan.", old: "ZeroEndTech jamosi tomonidan yaratolgan" },
+    footer: { about: "MERRYMED FARM - Zamonaviy farmatsevtika kompaniyasi.", contact: "Aloqa", rights: "© 2026 MERRYMED FARM. Barcha huquqlar himoyalangan.", old: "ZeroEndTech jamosi tomonidan yaratilgan" },
     admin: { title: "Admin Panel", login: "Kirish", logout: "Chiqish", products: "Mahsulotlar", news: "Yangiliklar", gallery: "Galereya", add: "Qo'shish", edit: "Tahrirlash", delete: "O'chirish", save: "Saqlash", cancel: "Bekor qilish", confirm: "Ishonchingiz komilmi?", email: "Email", password: "Parol", loginFail: "Email yoki parol noto'g'ri" }
   },
   ru: {
