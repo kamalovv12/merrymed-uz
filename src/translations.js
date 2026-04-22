@@ -7,7 +7,7 @@ export const TRANSLATIONS = {
     pages: { products: { title: "Mahsulotlar", subtitle: "Dori shakllari va toifalar." }, news: { title: "Yangiliklar", subtitle: "Kompaniya yangiliklari va e'lonlar." }, gallery: { title: "Galereya", subtitle: "Ishlab chiqarish lavhalar." }, jobs: { title: "Ish o'rinlari", subtitle: "Ochiq vakansiyalar." }, contact: { title: "Bog'lanish", subtitle: "Murojaat va hamkorlik uchun." } },
     jobs: [ {title: "QA mutaxassisi", location: "Namangan", type: "Full-time"}, {title: "Frontend developer", location: "Toshkent / Remote", type: "Contract"}, {title: "Logistika koordinatori", location: "Namangan", type: "Full-time"} ],
     contact: { eyebrow: "Bog'lanish", title: "Biz bilan aloqaga chiqing", name: "Ismingiz", email: "Email", message: "Xabar matni", send: "Yuborish", sent: "Xabaringiz yuborildi!", error: "Xatolik yuz berdi.", index: "Indeks", email_label: "Email", all: "Barchasi", apply: "Ariza topshirish" },
-    footer: { about: "MERRYMED FARM - Zamonaviy farmatsevtika kompaniyasi.", contact: "Aloqa", rights: "© 2026 MERRYMED FARM. Barcha huquqlar himoyalangan." },
+    footer: { about: "MERRYMED FARM - Zamonaviy farmatsevtika kompaniyasi.", contact: "Aloqa", rights: "© 2026 MERRYMED FARM. Barcha huquqlar himoyalangan.", old: "ZeroEndTech jamosi tomonidan yaratolgan" },
     admin: { title: "Admin Panel", login: "Kirish", logout: "Chiqish", products: "Mahsulotlar", news: "Yangiliklar", gallery: "Galereya", add: "Qo'shish", edit: "Tahrirlash", delete: "O'chirish", save: "Saqlash", cancel: "Bekor qilish", confirm: "Ishonchingiz komilmi?", email: "Email", password: "Parol", loginFail: "Email yoki parol noto'g'ri" }
   },
   ru: {
@@ -18,7 +18,7 @@ export const TRANSLATIONS = {
     pages: { products: { title: "Продукция", subtitle: "Лекарственные формы и категории." }, news: { title: "Новости", subtitle: "Новости и объявления компании." }, gallery: { title: "Галерея", subtitle: "Моменты производства." }, jobs: { title: "Вакансии", subtitle: "Открытые позиции." }, contact: { title: "Контакты", subtitle: "Для обращений и сотрудничества." } },
     jobs: [ {title: "QA специалист", location: "Наманган", type: "Full-time"}, {title: "Frontend разработчик", location: "Ташкент / Remote", type: "Contract"}, {title: "Координатор логистики", location: "Наманган", type: "Full-time"} ],
     contact: { eyebrow: "Контакты", title: "Свяжитесь с нами",  name: "Ваше имя", email: "Email", message: "Сообщение", send: "Отправить", sent: "Сообщение отправлено!", error: "Произошла ошибка.", index: "Индекс", email_label: "Email", all: "Все", apply: "Подать заявку" },
-    footer: { about: "MERRYMED FARM - Современная фармкомпания.", contact: "Контакты", rights: "© 2026 MERRYMED FARM. Все права защищены." },
+    footer: { about: "MERRYMED FARM - Современная фармкомпания.", contact: "Контакты", rights: "© 2026 MERRYMED FARM. Все права защищены.", old:"Создано командой ZeroEndTech" },
     admin: { title: "Админ панель", login: "Войти", logout: "Выход", products: "Продукция", news: "Новости", gallery: "Галерея", add: "Добавить", edit: "Изменить", delete: "Удалить", save: "Сохранить", cancel: "Отмена", confirm: "Вы уверены?", email: "Email", password: "Пароль", loginFail: "Неверный email или пароль" }
   },
   en: {
@@ -29,7 +29,7 @@ export const TRANSLATIONS = {
     pages: { products: { title: "Products", subtitle: "Dosage forms and categories." }, news: { title: "News", subtitle: "Company news and announcements." }, gallery: { title: "Gallery", subtitle: "Production moments." }, jobs: { title: "Careers", subtitle: "Open positions." }, contact: { title: "Contact", subtitle: "For inquiries and cooperation." } },
     jobs: [ {title: "QA specialist", location: "Namangan", type: "Full-time"}, {title: "Frontend developer", location: "Tashkent / Remote", type: "Contract"}, {title: "Logistics coordinator", location: "Namangan", type: "Full-time"} ],
     contact: { eyebrow: "Contact", title: "Get in touch with us", name: "Your name", email: "Email", message: "Message", send: "Send", sent: "Message sent!", error: "An error occurred.", index: "Index", email_label: "Email", all: "All", apply: "Apply" },
-    footer: { about: "MERRYMED FARM - Modern pharmaceutical company.", contact: "Contact", rights: "© 2026 MERRYMED FARM. All rights reserved." },
+    footer: { about: "MERRYMED FARM - Modern pharmaceutical company.", contact: "Contact", rights: "© 2026 MERRYMED FARM. All rights reserved.", old:"Created by ZeroEndTech team" },
     admin: { title: "Admin Panel", login: "Login", logout: "Logout", products: "Products", news: "News", gallery: "Gallery", add: "Add", edit: "Edit", delete: "Delete", save: "Save", cancel: "Cancel", confirm: "Are you sure?", email: "Email", password: "Password", loginFail: "Wrong email or password" }
   }
 };

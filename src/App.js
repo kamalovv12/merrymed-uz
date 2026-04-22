@@ -95,7 +95,7 @@ function Footer() {
           {contact && <p>Email: <a href={`mailto:${contact.email}`}>{contact.email}</a></p>}
         </div>
       </div>
-      <div className="footer-bottom">{t.footer.rights}</div>
+      <div className="footer-bottom">{t.footer.rights} {t.footer.old}</div>
     </footer>
   );
 }
