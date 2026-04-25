@@ -125,20 +125,51 @@ nav a.active, nav a:hover { color: white; border-color: #5fb6ff; }
   color: rgba(255,255,255,.82);
   margin-bottom: 14px;
 }
+.image{
+  width: 15%;
+  transform: rotate(-90deg) translateX(0px) translateY(-200px);
+}
 .eyebrow.blue { color: var(--primary); }
-.hero h1, .subhero h1 {
-  font-size: clamp(2.7rem, 5vw, 4.8rem);
-  line-height: 1.05;
-  margin: 0 0 18px;
+.hero h1, .subhero h1{
+  font-size: clamp(1.7rem, 3vw, 3.8rem);
+  line-height: 1.60;
+  margin: 0 0 10px;
+  color: white;
+  max-width: 800px;
+  font-weight: 600;
+}
+.hero h2{
+  font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+  line-height: 1.30;
+  margin: 0 0 5px;
   color: white;
   max-width: 900px;
+  font-weight: 400;
 }
-.hero p {
-  font-size: 1.08rem;
+
+.sub {
+  font-size: 2.50rem;
+  color: rgba(255,255,255,.84);
+  max-width: 6800px;
+  line-height: 1.75;
+  font-weight: 500;
+}
+.new {
+  font-size: 2.50rem;
+  color: rgba(255,255,255,.84);
+  max-width: 6800px;
+  line-height: 1.55;
+  font-weight: 500;
+}
+.add {
+  font-size: 2.00rem;
   color: rgba(255,255,255,.84);
   max-width: 680px;
-  line-height: 1.75;
+  line-height: 1.50;
+  font-weight: 400;
 }
+
+
 .hero-actions {
   display: flex;
   gap: 14px;
@@ -186,15 +217,16 @@ nav a.active, nav a:hover { color: white; border-color: #5fb6ff; }
 }
 .section h2 {
   font-size: clamp(2rem, 3vw, 3rem);
-  margin: 0 0 18px;
+  margin: 0 0 8px;
 }
 .section p {
   color: var(--muted);
-  line-height: 1.8;
+  line-height: 1.6;
 }
 .image-stack img {
   border-radius: 28px;
-  max-height: 540px;
+  max-height: 750px;
+  height: 550px;
   width: 100%;
   object-fit: cover;
   box-shadow: 0 25px 65px rgba(8, 106, 216, 0.16);

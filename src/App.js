@@ -42,7 +42,7 @@ function Header() {
     <header className={`site-header ${menuOpen ? "menu-open" : ""}`} >
       <div className="container nav-wrap img">
         <div className="brand">
-          <img src="/assets/image-removebg-preview.png" alt="logo" />
+          
         </div>
 
         <button
@@ -106,15 +106,22 @@ function Hero() {
   const [cur, setCur] = useState(0);
   useEffect(() => { const id = setInterval(() => setCur(p => (p + 1) % slides.length), 4000); return () => clearInterval(id); }, []);
   return (
-    <section className="hero" style={{ backgroundImage: `linear-gradient(90deg, rgba(2,14,42,.88), rgba(7,73,145,.52)), url(${slides[cur]})` }}>
+    <section className="hero" style={{ backgroundImage: `linear-gradient(90deg, rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.53)), url(${slides[cur]})` }}>
       <div className="container hero-content">
         <motion.div key={cur} {...fade}>
-          <span className="eyebrow">{t.hero.eyebrow}</span>
+          {/* <span className="eyebrow">{t.hero.eyebrow}</span> */}
+          <img className="image" src="/assets/imagelogo.png" alt="logo" />
           <h1>{t.hero.title}</h1>
-          <p>{t.hero.subtitle}</p>
+          <h1>{t.hero.mer}</h1>
+          <h2 className="sub">{t.hero.wel}</h2>
+          <h1 className="mery">{t.hero.mery}</h1>
+          <h2 className="sub">{t.hero.lend}</h2>
+          <p className="sub">{t.hero.subtitle}</p>
+          <p className="new">{t.hero.new}</p>
+          <p className="add">{t.hero.add}</p>
           <div className="hero-actions">
-            <a href="#about" className="btn btn-primary" data-testid="hero-cta1">{t.hero.cta1}</a>
-            <NavLink to="/contact" className="btn btn-secondary" data-testid="hero-cta2">{t.hero.cta2}</NavLink>
+            {/* <a href="#about" className="btn btn-primary" data-testid="hero-cta1">{t.hero.cta1}</a> */}
+            {/* <NavLink to="/contact" className="btn btn-secondary" data-testid="hero-cta2">{t.hero.cta2}</NavLink> */}
           </div>
         </motion.div>
         <div className="slider-indicators">
@@ -146,6 +153,7 @@ function HomePage() {
             <span className="eyebrow blue">{t.home.about_eyebrow}</span>
             <h2>{t.home.about_title}</h2>
             <p>{t.home.about_text}</p>
+            <br/>
             <p>{t.home.mission}</p>
           </div>
           <div className="image-stack"><img src="/assets/control1.jpg" alt="factory" /></div>
